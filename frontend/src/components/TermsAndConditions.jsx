@@ -43,7 +43,7 @@ const TermsAndConditions = () => {
                 1. Acceptance of Terms
               </h2>
               <p className="leading-relaxed">
-                By accessing and using TREKORA's services, you accept and agree
+                By accessing and using NisargPath's services, you accept and agree
                 to be bound by these Terms and Conditions. If you do not agree
                 to these terms, please do not use our services.
               </p>
@@ -117,9 +117,9 @@ const TermsAndConditions = () => {
                 5. Liability
               </h2>
               <p className="leading-relaxed">
-                TREKORA takes utmost care for participant safety. However,
+                NisargPath takes utmost care for participant safety. However,
                 trekking involves inherent risks. Participants undertake treks
-                at their own risk. TREKORA is not liable for injuries, losses,
+                at their own risk. NisargPath is not liable for injuries, losses,
                 or damages occurring during the trek, except in cases of proven
                 negligence.
               </p>
@@ -130,7 +130,7 @@ const TermsAndConditions = () => {
                 6. Changes to Itinerary
               </h2>
               <p className="leading-relaxed">
-                TREKORA reserves the right to modify trek itineraries due to
+                NisargPath reserves the right to modify trek itineraries due to
                 weather, safety concerns, or unforeseen circumstances.
                 Participants will be notified of any changes as soon as
                 possible.
@@ -146,17 +146,17 @@ const TermsAndConditions = () => {
                 contact us at:
                 <br />
                 <a
-                  href="tel:+919156797374"
+                  href="tel:+919665892757"
                   className="text-orange-600 hover:text-orange-700"
                 >
-                  +91 91567 97374
+                  +91 96658 92757
                 </a>
                 <br />
                 <a
-                  href="mailto:contact.trekoraadventures@gmail.com"
+                  href="mailto:contact@nisargpath.live"
                   className="text-orange-600 hover:text-orange-700"
                 >
-                  contact.trekoraadventures@gmail.com
+                  contact@nisargpath.live
                 </a>
               </p>
             </section>

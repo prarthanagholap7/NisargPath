@@ -162,7 +162,7 @@ const AdminTrekForm = () => {
               <div>
                 <h1 className="text-3xl font-bold text-white">Add New Trek</h1>
                 <p className="text-orange-100">
-                  Upload trekking details for TREKORA
+                  Upload trekking details for NisargPath
                 </p>
               </div>
             </div>

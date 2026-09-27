@@ -2,6 +2,13 @@ import User from "../Models/user.js";
 import { Strategy as GoogleStrategy } from "passport-google-oauth20";
 
 export default function configurePassport(passport) {
+  if (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET) {
+    console.warn(
+      "⚠️ Warning: GOOGLE_CLIENT_ID or GOOGLE_CLIENT_SECRET is missing. Google OAuth strategy skipped."
+    );
+    return;
+  }
+
   passport.use(
     new GoogleStrategy(
       {

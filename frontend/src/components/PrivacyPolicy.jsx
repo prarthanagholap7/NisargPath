@@ -176,17 +176,17 @@ const PrivacyPolicy = () => {
                 handle your data, please contact us:
                 <br />
                 <a
-                  href="tel:+919156797374"
+                  href="tel:+919665892757"
                   className="text-orange-600 hover:text-orange-700"
                 >
-                  +91 91567 97374
+                  +91 96658 92757
                 </a>
                 <br />
                 <a
-                  href="mailto:contact.trekoraadventures@gmail.com"
+                  href="mailto:contact@nisargpath.live"
                   className="text-orange-600 hover:text-orange-700"
                 >
-                  contact.trekoraadventures@gmail.com
+                  contact@nisargpath.live
                 </a>
               </p>
             </section>

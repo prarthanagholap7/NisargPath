@@ -96,10 +96,10 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Phone</h4>
                     <a
-                      href="tel:+919156797374"
+                      href="tel:+919665892757"
                       className="text-gray-600 hover:text-orange-600 transition-colors"
                     >
-                      +91 91567 97374
+                      +91 96658 92757
                     </a>
                   </div>
                 </div>
@@ -111,10 +111,10 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
                     <a
-                      href="mailto:contact.trekoraadventures@gmail.com"
+                      href="mailto:contact@nisargpath.live"
                       className="text-gray-600 hover:text-orange-600 transition-colors break-all"
                     >
-                      contact.trekoraadventures@gmail.com
+                      contact@nisargpath.live
                     </a>
                   </div>
                 </div>
@@ -126,12 +126,12 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Instagram</h4>
                     <a
-                      href="https://www.instagram.com/trekora_org/?utm_source=qr&igsh=MW4wb3I5bTU4NW91MA%3D%3D#"
+                      href="https://www.instagram.com/nisargpath_official/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-600 hover:text-orange-600 transition-colors"
                     >
-                      @trekora_org
+                      @nisargpath_official
                     </a>
                   </div>
                 </div>
@@ -148,7 +148,7 @@ const Contact = () => {
               </div>
 
               <div className="mt-8 p-6 bg-gradient-to-r from-orange-600 to-red-600 rounded-2xl text-white">
-                <h4 className="text-xl font-bold mb-2">Why Choose TREKORA?</h4>
+                <h4 className="text-xl font-bold mb-2">Why Choose NisargPath?</h4>
                 <ul className="space-y-2 text-sm">
                   <li>• Explore Maharashtra's scenic treks</li>
                   <li>• Expert local guides</li>

@@ -25,7 +25,7 @@ export const sendContactEmail = async (formData) => {
       phone: formData.phone || "Not provided",
       trek: formData.trek || "Not specified",
       message: formData.message,
-      to_email: "contact.trekoraadventures@gmail.com", // Your email
+      to_email: "contact@nisargpath.live", // Your email
     };
 
     const response = await emailjs.send(

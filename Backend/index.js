@@ -1,5 +1,5 @@
+import "dotenv/config";
 import express from "express";
-import dotenv from "dotenv";
 import cors from "cors";
 import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
@@ -12,12 +12,14 @@ import bookingRouter from "./Route/book.js";
 import tokenRouter from "./Route/tokenRoute.js";
 import adminRouter from "./Route/admin.js";
 
-dotenv.config();
-
 // Connect to MongoDB before starting the server
 const startServer = async () => {
   try {
-    await connectMongoDB(process.env.MONGO_URL);
+    const mongoUri = process.env.MONGO_URL || process.env.MONGO_URI;
+    if (!mongoUri) {
+      throw new Error("MONGO_URL or MONGO_URI is missing from environment variables.");
+    }
+    await connectMongoDB(mongoUri);
 
     const app = express();
     app.use(express.json());
@@ -31,8 +33,8 @@ const startServer = async () => {
       "http://localhost:5173", // local dev
       "http://localhost:5174", // local dev
       "https://next-step-planner-v2-sze3.vercel.app", // old vercel deploy (optional now)
-      "https://trekora.live", // custom domain
-      "https://www.trekora.live", // www version of custom domain
+      "https://nisargpath.live", // custom domain
+      "https://www.nisargpath.live", // www version of custom domain
       process.env.FRONTEND_URL, // env variable fallback
     ].filter(Boolean);
 

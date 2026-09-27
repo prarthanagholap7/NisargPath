@@ -24,14 +24,29 @@ userRouter.post(
   handleUserLogOut
 );
 
-userRouter.get(
-  "/google",
-  passport.authenticate("google", { scope: ["profile", "email"] })
-);
+userRouter.get("/google", (req, res, next) => {
+  if (!passport._strategy("google")) {
+    return res
+      .status(503)
+      .json({ error: "Google OAuth is not configured on this server." });
+  }
+  passport.authenticate("google", { scope: ["profile", "email"] })(
+    req,
+    res,
+    next
+  );
+});
 
 userRouter.get(
   "/google/callback",
-  passport.authenticate("google", { session: false }),
+  (req, res, next) => {
+    if (!passport._strategy("google")) {
+      return res
+        .status(503)
+        .json({ error: "Google OAuth is not configured on this server." });
+    }
+    passport.authenticate("google", { session: false })(req, res, next);
+  },
   handleSignUpUserViaGoogleAuth
 );
 

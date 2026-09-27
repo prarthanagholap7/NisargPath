@@ -1,7 +1,6 @@
 import React from "react";
 import { Mountain, Instagram, Mail, MapPin, Phone } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/trekora1.png";
 import RevealAnimation from "./RevealAnimation";
 
 const Footer = () => {
@@ -15,10 +14,10 @@ const Footer = () => {
           <RevealAnimation animationType="fadeInUp" delay={100}>
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-white p-2 rounded-lg">
-                  <img src={logo} alt="TREKORA" className="h-10 w-auto" />
+                <div className="bg-orange-600/20 border border-orange-500/30 p-2 rounded-lg">
+                  <Mountain className="h-8 w-8 text-orange-500" />
                 </div>
-                <span className="text-2xl font-bold">TREKORA</span>
+                <span className="text-2xl font-bold">NisargPath</span>
               </div>
               <p className="text-gray-400 mb-6 text-sm leading-relaxed">
                 Your gateway to unforgettable trekking adventures across
@@ -87,31 +86,31 @@ const Footer = () => {
               </h3>
               <div className="space-y-4">
                 <a
-                  href="tel:+919156797374"
+                  href="tel:+919665892757"
                   className="flex items-center space-x-3 text-gray-400 hover:text-orange-500 transition-colors group"
                 >
                   <Phone className="h-5 w-5 flex-shrink-0 group-hover:text-orange-500" />
-                  <span className="text-sm">+91 91567 97374</span>
+                  <span className="text-sm">+91 96658 92757</span>
                 </a>
 
                 <a
-                  href="mailto:contact.trekoraadventures@gmail.com"
+                  href="mailto:contact@nisargpath.live"
                   className="flex items-start space-x-3 text-gray-400 hover:text-orange-500 transition-colors group"
                 >
                   <Mail className="h-5 w-5 mt-0.5 flex-shrink-0 group-hover:text-orange-500" />
                   <span className="text-sm break-all">
-                    contact.trekoraadventures@gmail.com
+                    contact@nisargpath.live
                   </span>
                 </a>
 
                 <a
-                  href="https://www.instagram.com/trekora_org/?utm_source=qr&igsh=MW4wb3I5bTU4NW91MA%3D%3D#"
+                  href="https://www.instagram.com/nisargpath_official/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 text-gray-400 hover:text-orange-500 transition-colors group"
                 >
                   <Instagram className="h-5 w-5 flex-shrink-0 group-hover:text-orange-500" />
-                  <span className="text-sm">@trekora_org</span>
+                  <span className="text-sm">@nisargpath_official</span>
                 </a>
 
                 <div className="flex items-start space-x-3 text-gray-400">
@@ -127,7 +126,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-500 text-sm">
-              © {new Date().getFullYear()} TREKORA. All rights reserved.
+              © {new Date().getFullYear()} NisargPath. All rights reserved.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <button

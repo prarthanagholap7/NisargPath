@@ -15,7 +15,7 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
     cloudinary : cloudinary,
     params : {
-        folder : "trekora",
+        folder : "nisargpath",
         allowed_formats: ['png', 'jpg', 'jpeg', 'webp'],
     },
 });

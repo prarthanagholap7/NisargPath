@@ -683,7 +683,7 @@ const BookingForm = () => {
               )}
               {/* Instagram Connect Button */}
               <a
-                href="https://www.instagram.com/trekora_org/?utm_source=qr&igsh=MW4wb3I5bTU4NW91MA%3D%3D#"
+                href="https://www.instagram.com/nisargpath_official/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-full bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white py-3 rounded-lg font-semibold text-center transition-all duration-300 mb-3 space-x-2"
